@@ -1,2 +1,5 @@
 # cambiando.programas
-Una version traducida al español de https://switching.software/
+
+Una versión traducida al español de https://switching.software/
+
+Traducción en proceso... 
