@@ -63,6 +63,7 @@ lsi: false
 
 plugins:
   - jekyll-redirect-from
+  - jemoji
 
 excerpt_separator: <!--more-->
 
