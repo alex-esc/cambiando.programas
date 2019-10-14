@@ -1,0 +1,57 @@
+###########
+# site.title, site.url, site.author.name
+# Use '' arround all settings, if a setting contains a special characters you must use "", if the build fails check for '' and ""
+
+
+title:   "Site Pre-set"
+author: 
+  name:  'alex-esc'
+description:  A generic, simple site by alex-esc, forked from henrythemes' jekyll-minimal-theme.
+
+## note: 
+#  use site.path in your templates to make it work for both protocols e.g. http and https
+#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+path: '/post-clone'
+url:  'https://alex-esc.github.io'
+baseurl: '/post-clone'
+
+## Menu buttons
+
+
+other:
+  about: 'https://alex-esc.github.io/en_us/pages/about.html' # URL for your about me page, it can be your linked in or other social media account 
+  comments: 'https://www.reddit.com/r/alex_esc_reddit/' # This is where users can send you feedback, like a forum, subreddit, discuss page etc.
+  emaillist: https://feedburner.google.com/fb/a/mailverify?uri=alex-esc&amp;loc=en_US # Place here the URL to your email reading list
+  activitypubfeed: https://bots.tinysubversions.com/u/alex_esc_blog_posts # If your blog has a mastodon account that auto-posts everything you blog, place it here
+  twitterfeed: https://twitter.com/alex_esc_tweets # add your twitter feed for your site
+  mediumfeed: https://medium.com/@alexesc # add your mighlights URL, example: medium
+  licenselink: https://creativecommons.org/licenses/by-sa/4.0/ # Place here the link to your license of choice
+  
+licensename: 'Creative Commons Attribution-ShareAlike 4.0 International' # Write here the name of your license, it will be mentioned multiple times on this site
+404message: 'Either the link, post title or tag you’re looking for might have changed, head over to the archive to manually search for an article.' # Write a custom 404 error message, depending on your use of this preset you might want a different 404 message
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+permalink: /:title.html
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false
+
+plugins:
+  - jekyll-redirect-from
+
+excerpt_separator: <!--more-->
+
+kramdown:
+  auto_ids: true # Auto-generate ID's for headings
