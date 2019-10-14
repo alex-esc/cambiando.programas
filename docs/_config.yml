@@ -27,8 +27,21 @@ other:
   mediumfeed: https://medium.com/@alexesc # add your mighlights URL, example: medium
   licenselink: https://creativecommons.org/licenses/by-sa/4.0/ # Place here the link to your license of choice
   
+  
+  
+# Francés, Alemán, Italiano y Turco
+  
+  
 licensename: 'Creative Commons Attribution-ShareAlike 4.0 International' # Write here the name of your license, it will be mentioned multiple times on this site
 404message: 'Either the link, post title or tag you’re looking for might have changed, head over to the archive to manually search for an article.' # Write a custom 404 error message, depending on your use of this preset you might want a different 404 message
+
+
+
+id.fr: https://switching.geber.ga/
+id.al: https://switchingsocial.de/
+id.it: https://switching.ml/
+id.tc: http://www.sosyaldegisim.com/
+
 
 ########
 # more settings
