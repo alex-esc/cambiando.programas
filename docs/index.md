@@ -4,58 +4,17 @@ title: Welcome
 excerpt_separator: <!--more-->
 ---
 
-{{site.description}}
+## Hola mundo!
 
+Aquí podrás encontrar una versión en Español de Switching Software.
 
-## Latest Post
+Por ahora estamos en construcción, puedes ver la pagina original o sus traducciones en [Francés][t1], [Alemán][t2], [Italiano][t3] y [Turco][t4].
 
+[t1]: https://switching.geber.ga/
+[t2]: https://switchingsocial.de/
+[t3]: https://switching.ml/
+[t4]: http://www.sosyaldegisim.com/
 
+Aporta a la traducción en [GitHub][git].
 
-{% for post in site.posts limit:1 %}
-
-
-<article class='post'>
-  <h1 class='post-title'>
-    <a href="{{ site.path }}{{ post.url }}">
-      {{ post.title }}
-    </a>
-  </h1>
-  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-  {{ post.content }}
-</article>
-
-{% endfor %}
-
-
-## Previous posts
-
-
-{% for post in site.posts limit:5 offset:1 %}
-
-
-<article class='post'>
-  <h3>
-    <a href="{{ site.path }}{{ post.url }}">
-      {{ post.title }}
-    </a>
-  </h3>
-  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-  {{ post.excerpt | strip_html }}
-</article>
-
-{% endfor %}
-
-
-## Older posts
-
-Find older blog posts on the _[archive](archive.md)_, or follow me via _[RSS](feed.xml)_.
-
-
-## In the works
-
-See my [future posts list](up-next.md).
-
-All my blog posts are licensed under <a href="{{ site.other.licenselink }}">{{ site.licensename }}</a>.
-
-
-[l]: https://creativecommons.org/licenses/by-sa/4.0/
+[git]: https://github.com/alex-esc/cambiando.programas
