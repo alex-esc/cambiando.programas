@@ -3,23 +3,23 @@
 # Use '' arround all settings, if a setting contains a special characters you must use "", if the build fails check for '' and ""
 
 
-title:   "Site Pre-set"
+title:   "Cambiando Programas"
 author: 
   name:  'alex-esc'
-description:  A generic, simple site by alex-esc, forked from henrythemes' jekyll-minimal-theme.
+description:  Una version traducida al español de https://switching.software/.
 
 ## note: 
 #  use site.path in your templates to make it work for both protocols e.g. http and https
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
-path: '/post-clone'
+path: '/cambiando.programas'
 url:  'https://alex-esc.github.io'
-baseurl: '/post-clone'
+baseurl: '/cambiando.programas'
 
 ## Menu buttons
 
 
 other:
-  about: 'https://alex-esc.github.io/en_us/pages/about.html' # URL for your about me page, it can be your linked in or other social media account 
+  about: 'example.com' # URL for your about me page, it can be your linked in or other social media account 
   comments: 'https://www.reddit.com/r/alex_esc_reddit/' # This is where users can send you feedback, like a forum, subreddit, discuss page etc.
   emaillist: https://feedburner.google.com/fb/a/mailverify?uri=alex-esc&amp;loc=en_US # Place here the URL to your email reading list
   activitypubfeed: https://bots.tinysubversions.com/u/alex_esc_blog_posts # If your blog has a mastodon account that auto-posts everything you blog, place it here
