@@ -10,7 +10,8 @@ De momento la mejor manera de ayudar es traduciendo una sección de *switching.s
 4. Si escojiste una pagina que esta en html, conviértela a markdown (explicación de como hacer esto más adelante). Usa la terminación `.md` para consistencia dentro del proyecto. Asegúrate que el archivo tiene un nombre descriptivo, más detalles abajo.
 5. Traduce el texto al inglés. Mantén solo el contenido, borra el encabezado y la información adicional del sitio (Ejemplo: borra el encabezado que contiene"Skip to content", "Ethical alternatives to popular sites and apps", "About this Site". Tmabien borra el contenido del final como "back to the front page" y " about this site / F.A.Q. / CC BY-SA 4.0 by switching.social") Un ejemplo de que borrar y que mantener se encuentra abajo.
 6. Cuando termines de traducir mueve el archivo al directorio `textos traducidos`. Recuerda que esta carpeta esta un nivel arriba que `versiones archivadas`.
-7. La traducción esta lista! Ahora solo falta mandar un *pull request* para agregar tus cambios al repositorio principal.
+7. Agregate en la lista de traductores que se encuentra en el directorio principal, titulada `como-contribuir.md`.
+8. La traducción esta lista! Ahora solo falta mandar un *pull request* para agregar tus cambios al repositorio principal.
 
 ### ¿Como transformar una pagina de HTML a Markdown?
 
