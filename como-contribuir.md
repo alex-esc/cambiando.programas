@@ -54,11 +54,11 @@ Un ejemplo visual:
 
 > Antes de eliminar el *header* y *footer*.
 
-![imágenes/con-header.jpg]()
+![foto](/imágenes/con-header.JPG)
 
 > Después de eliminar el *header* y *footer*.
 
-![imágenes/sin-header.jpg]()
+![foto](/imágenes/sin-header.JPG)
 
 > Después de transformar a Markdown.
 
